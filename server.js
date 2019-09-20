@@ -1,3 +1,5 @@
+// https://evdokimovm.github.io/javascript/nodejs/mongodb/pagination/expressjs/ejs/bootstrap/2017/08/20/create-pagination-with-nodejs-mongodb-express-and-ejs-step-by-step-from-scratch.html
+
 const express = require('express');
 const ejs = require('ejs');
 const mongoose = require('mongoose');
