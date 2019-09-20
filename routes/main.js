@@ -6,6 +6,10 @@ router.get('/add-product', (req, res) => {
     res.render('main/add-product')
 });
 
+router.get('/', function(req, res, next) {
+    res.render('index')
+})
+
 // router.get('/generate-fake-data', function(req, res, next) {
 //     for (var i = 0; i < 48; i++) {
 //         var product = new Product()
